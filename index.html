@@ -1,80 +1,83 @@
 <DOCTYPE HTML>
-  <html lang="pt-br" dir="ltr">
-
 <html>
   <head>
-   <meta charset=”utf-8”>
-   <title>o Philip</title>
-   <meta name="author" content="Paulo Philip Sampaio da Silva">
-   <meta name="description" content="Mais uma página criada, dessa vez, através do curso Universo Front-End">
-   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-   <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <h1 class="texto-centro">O Philip</h1>
-  </header>
+    <meta charset=”utf-8”>
+    <title>o Philip</title>
+    <meta name="author" content="Paulo Philip Sampaio da Silva">
+    <meta name="description" content="Mais uma página criada, dessa vez, através do curso Universo Front-End">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+    <link rel="manifest" href="img/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <header>
+      <h1 class="texto-centro">O Philip</h1>
+    </header>
 
-<section>
+    <div class="content">
+      <img class="img-centro img-circle" alt="Philip Sampaio, Salvador 2017"
+      title="Foto de Philip Sampaio, Salvador 2017" src="img/philipe-sampaio.jpg">
 
-    <img class="img-centro img-circle" alt="Philip Sampaio, Salvador 2017"
-          title="Foto de Philip Sampaio, Salvador 2017" src="img/philipe-sampaio.jpg">
+      <figcaption>Somos o futuro triunfante de um passado cheio de esperanças</figcaption>
 
-    <figcaption>Somos o futuro triunfante de um passado cheio de esperanças</figcaption>
+      <p>Graudando em Publicidade e Propaganda pela UNIFACS,
+      há 2 anos, também estudo fotografia e produções audiovisuais de forma semi-independente,
+      bastante curioso, procuro ser o mais completo, para que assim eu possa concluir
+      os meus objetivos.</p>
 
-    <p>Graudando em Publicidade e Propaganda pela UNIFACS,
-    há 2 anos, também estudo fotografia e produções audiovisuais de forma semi-independente,
-    bastante curioso, procuro ser o mais completo, para que assim eu possa concluir
-    os meus objetivos.
-    </p>
-
-    <h3>Contato</h3>
+      <h3>Contato</h3>
       <ul>
         <li>Email: focoestudio.ph@gmail.com</li>
         <li>Telefone:  71 98203-5050</li>
         <li>Github: <a target="_blank" href="https://github.com/xSoldnerDevw">Clique aqui</a></li>
       </ul>
-</section>
+    </div>
 
-<section class="form">
+    <div>
+      <h3>Mande uma mensagem</h3>
 
-  <h3>Mande uma mensagem</h3>
+      <form>
+        <p>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Seu Nome">
+        </p>
+        <p>
+          <label for="Email">Email</label>
+          <input type="email" id="Email" placeholder="Seu Email">
+        </p>
+        <p>
+          <label for="Tel">Cel</label>
+          <input type="tel" id="Tel" placeholder="Celular">
+        </p>
+        <p>
+          <textarea name="name" id="mensagem" placeholder="Escreva sua mensagem. :)"></textarea>
+        </p>
+        <p>
+          <input type="submit" onclick="enviar()" value="Enviar">
+        </p>
+      </form>
+    </div>
 
-    <form>
-
-
-      <p>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" placeholder="Seu Nome">
-      </p>
-
-      <p>
-        <label for="Email">Email</label>
-        <input type="email" id="Email" placeholder="Seu Email">
-      </p>
-
-      <p>
-        <label for="Tel">Cel</label>
-        <input type="tel" id="Tel" placeholder="Celular">
-      </p>
-
-      <p>
-        <textarea name="name" id="mensagem" placeholder="Escreva sua mensagem. :)"></textarea>
-      </p>
-
-      <p>
-        <input type="submit" onclick="enviar()" value="Enviar">
-      </p>
-
-  </form>
-</section>
-
-<footer>
-  <p>Desenvolvido em 2018</p>
-</footer>
-<script src="js/formulario.js"></script>
-
-</body>
-
+    <footer>
+      <p>Desenvolvido em 2018</p>
+    </footer>
+    <script src="js/formulario.js"></script>
+  </body>
 
 </html>
